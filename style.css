@@ -1,0 +1,145 @@
+    @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Reggae+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Source+Code+Pro:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #navbar {
+        display: flex;
+        background-color: #697ce4;
+        height: 90px;
+        width: 100%;
+    }
+    
+    #logo img {
+        height: 90px;
+        width: 270px;
+        padding-left: 30px;
+    }
+    
+    .element {
+        padding-left: 30%;
+    }
+    
+    #navbar ul {
+        line-height: 35px;
+        display: flex;
+        /* text-align: center; */
+        margin: 2px 14px;
+        padding: 10px;
+        float: right;
+    }
+    
+    #navbar ul li {
+        list-style: none;
+        margin: 15px;
+        font-size: 1.5rem;
+    }
+    
+    #navbar ul li a {
+        font-family: 'Reggae One', cursive;
+        color: white;
+        text-decoration: none;
+    }
+    /* .mainmenu li ul {
+        width: 205px;
+        height: auto;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        z-index: 10;
+        display: none;
+    } */
+    /*  HOME SECTION  */
+    
+    #home {
+        display: flex;
+        height: 500px;
+        width: 900px;
+        /* border: 2px solid red; */
+        color: white;
+        font-family: 'Reggae One', cursive;
+        font-size: 1.4rem;
+        /* background-color: tomato; */
+    }
+    
+    #home .heading {
+        padding: 91px 15px;
+        margin: 130px 155px;
+    }
+    
+    #home::before {
+        content: "";
+        position: absolute;
+        background: url("bg3.jpg") no-repeat center center/cover;
+        height: 88%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+    }
+    /* PRODUCT SECTION  */
+    
+    #product-container {
+        margin-top: 35px;
+        /* border: 2px solid blueviolet; */
+        background-color: rgb(224, 223, 217);
+        height: 100%;
+        width: 100%;
+    }
+    /* #product-container::before {
+        content: "";
+        position: absolute;
+        background: url("bg10.png") no-repeat center center/cover;
+        height: 201%;
+        width: 100%;
+        z-index: -1;
+        opacity: .6;
+    }
+     */
+    
+    #product-container .h1-prod {
+        /* border: 2px solid blue; */
+        font-size: 2rem;
+        /* color: white; */
+        background-color: rgb(153, 153, 153);
+        text-align: center;
+        margin: 20px auto;
+        padding: 15px;
+    }
+    
+    #product-container #product {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px;
+        /* max-width: 1300px; */
+    }
+    
+    #product .box {
+        border: 2px solid rgb(20, 20, 20);
+        background-color: darkgray;
+        border-radius: 20px;
+        margin: 22px;
+        height: 414px;
+        /* width: 400px; */
+    }
+    
+    #product .h-prod {
+        text-align: center;
+        color: rgb(3, 3, 3);
+        font-family: 'Indie Flower', cursive;
+        padding: 20px;
+        padding-bottom: 0px;
+        font-size: 1.9rem;
+    }
+    
+    #product img {
+        margin: 27px;
+        padding: 30px;
+        /* border: 2px solid red; */
+        /* background-color: white; */
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+    }
